@@ -3,8 +3,8 @@ package hashtag
 import (
 	"strconv"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
+	. "github.com/onsi/ginkgo/v2"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("RendezvousHash", func() {

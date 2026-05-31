@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"time"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
+	. "github.com/onsi/ginkgo/v2"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("tests conn_check with real conns", func() {

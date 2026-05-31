@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
+	. "github.com/onsi/ginkgo/v2"
+	. "github.com/onsi/gomega"
 )
 
 func BenchmarkToLowerStd(b *testing.B) {

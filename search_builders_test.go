@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
+	. "github.com/onsi/ginkgo/v2"
+	. "github.com/onsi/gomega"
 	"github.com/redis/go-redis/v9"
 )
 
